@@ -1,0 +1,83 @@
+.info {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/info.svg);
+  position: relative;
+  top: 4px;
+}
+
+.logo_nav {
+  display: inline-block;
+  width: 143px;
+  height: 30px;
+  background: url(../images/logo.svg);
+}
+
+.whatsapp {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url(../images/whatsapp.svg);
+}
+
+.viber {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url(../images/viber.svg);
+}
+
+.telegram {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  background: url(../images/telegram.svg);
+}
+
+.info_mini {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/info_mini.svg);
+}
+
+.money {
+  display: inline-block;
+  width: 29px;
+  height: 25px;
+  background: url(../images/money.svg);
+  background-repeat: no-repeat;
+}
+
+.cup {
+  display: inline-block;
+  width: 29px;
+  height: 21px;
+  background: url(../images/cup.svg);
+  background-repeat: no-repeat;
+}
+
+.student {
+  display: inline-block;
+  width: 29px;
+  height: 26px;
+  background: url(../images/student.svg);
+  background-repeat: no-repeat;
+}
+
+.rock {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: url(../images/rock.svg);
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  display: inline-block;
+  width: 27px;
+  height: 32px;
+  background: url(../images/arrow.svg);
+}
+/*# sourceMappingURL=icons.css.map */

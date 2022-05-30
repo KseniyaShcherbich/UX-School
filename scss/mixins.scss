@@ -1,0 +1,71 @@
+@mixin box {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+  border: $border-main;
+}
+
+@mixin flex($x, $y) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $x;
+  align-items: $y;
+}
+
+@mixin font($s, $w, $c) {
+  font-size: $s;
+  font-weight: $w;
+  color: $c;
+}
+
+@mixin button($c, $bg, $w, $h) {
+  color: $c;
+  background: $bg;
+  width: $w;
+  height: $h;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+@mixin circle($b) {
+  border-radius: 50%;
+  background: $b;
+  padding: 10px;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+@mixin float($float, $w, $m, $p) {
+  float: $float;
+  width: $w;
+  margin: $m;
+  padding: $p;
+  box-sizing: border-box;
+}
+
+@mixin title($c, $s, $w, $mt) {
+  color: $c;
+  font-size: $s;
+  font-weight: $w;
+  margin-top: $mt;
+}
+
+@mixin margin($c, $s, $w, $mt) {
+  margin-top: $mt;
+  margin-right: $mr;
+  margin-left: $ml;
+  margin-bottom: $mb;
+}
+@mixin icon($w, $h, $bg) {
+  display: inline-block;
+  width: $w;
+  height: $h;
+  background: $bg;
+}

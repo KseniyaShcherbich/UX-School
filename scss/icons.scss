@@ -1,0 +1,41 @@
+@import "mixins";
+
+.info {
+  @include icon(20px, 20px, url(../images/info.svg));
+  position: relative;
+  top: 4px;
+}
+.logo_nav {
+  @include icon(143px, 30px, url(../images/logo.svg));
+}
+.whatsapp {
+  @include icon(27px, 30px, url(../images/whatsapp.svg));
+}
+.viber {
+  @include icon(27px, 30px, url(../images/viber.svg));
+}
+.telegram {
+  @include icon(27px, 30px, url(../images/telegram.svg));
+}
+.info_mini {
+  @include icon(16px, 16px, url(../images/info_mini.svg));
+}
+.money {
+  @include icon(29px, 25px, url(../images/money.svg));
+  background-repeat: no-repeat;
+}
+.cup {
+  @include icon(29px, 21px, url(../images/cup.svg));
+  background-repeat: no-repeat;
+}
+.student {
+  @include icon(29px, 26px, url(../images/student.svg));
+  background-repeat: no-repeat;
+}
+.rock {
+  @include icon(29px, 29px, url(../images/rock.svg));
+  background-repeat: no-repeat;
+}
+.arrow {
+  @include icon(27px, 32px, url(../images/arrow.svg));
+}
